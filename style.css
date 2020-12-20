@@ -1,0 +1,48 @@
+/* Home CSS */
+.container{
+    font-family: 'Raleway', sans-serif;
+}
+.img-fluid{
+    width:78%;
+}
+
+.col-9{
+    font-weight: bolder;
+    font-family:'Raleway';
+    font-size: large;
+}
+
+/* Porfolio CSS */
+
+/* All captions have same id*/
+.Caption{
+    font-family:'Raleway';
+    text-align: center;
+
+}
+
+.porfolio-cointaner{
+    align-content: center;
+}
+
+/* All image have the same Id*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+
+.Captions{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Contact CSS*/
+
+.message{
+    margin:20px;
+}
+    
