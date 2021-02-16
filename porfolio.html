@@ -13,15 +13,16 @@
     <!--Google Font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
-<!-- Stylesheet CSS-->
-<link rel="stylesheet" href="assets/style.css">
+    <!-- Stylesheet CSS-->
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="#">Miguel Alcantar</a>
-
+        <div class="navBrand">
+            <a class="navbar-brand" style="margin-left: 20px; font-size: 30px;" href="index.html">Miguel Alcantar</a>
+        </div>
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -31,7 +32,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="porfolio.html">Porfolio</a>
@@ -42,7 +43,7 @@
             </ul>
         </div>
     </nav>
-    <div id="porfolio-cointaner">
+    <div class="porfolio-cointaner">
 
         <div class="content">
 
@@ -52,24 +53,33 @@
 
                 <div class="portfolioRow">
                     <img src="assets/images/TheVibe.jpn.png" class="center" alt="Just Placeholder">
-                    <div class="raccoon-image" id="raccoon">
+                    <div class="theVibe">
                         <div class="Captions">
-                            <h3>The Vibe</h3>
+                            <p class="repo-link">
+                                <a href="https://github.com/mpkahn/thevibe" target="_blank">
+                                    &nbsp;&nbsp;The Vibe</a>
+                            </p>
                         </div>
 
                     </div>
 
                     <div class="portfolioRow">
-                        <img src="assets/images/lion.jpn.jpeg" class="center" alt="Another Placeholder">
-                        <div class="lion-image" id="lion">
+                        <img src="assets/images/WorkCalendar.png" class="center" alt="Just Placeholder">
+                        <div class="workCalendar">
                             <div class="Captions">
-                                <h3>Lion</h3>
+                                <p class="repo-link">
+                                    <a href="https://github.com/malcan09/work-day-scheduler-05" target="_blank">
+                                        &nbsp;&nbsp;Work Day Scheduler</a>
+                                </p>
                             </div>
 
                             <div class="portfolioRow">
-                                <img src="assets/images/condor.jpn.jpg" class="center" alt="Last Placeholder">
-                                <div class="condor-image" id="condor">
+                                <img src="assets/images/CodeQuiz.png" class="center" alt="Just Placeholder">
+                                <div class="CodeQuiz">
                                     <div class="Captions">
-                                        <h3>Condor</h3>
+                                        <p class="repo-link">
+                                            <a href="https://malcan09.github.io/Web-APIs-04/." target="_blank">
+                                                &nbsp;&nbsp;Code Quiz</a>
+                                        </p>
                                     </div>
 </body>

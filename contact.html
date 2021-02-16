@@ -13,15 +13,16 @@
     <!--Google Font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
-<!-- Stylesheet CSS-->
-<link rel="stylesheet" href="assets/style.css">
+    <!-- Stylesheet CSS-->
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="#">Miguel Alcantar</a>
-
+        <div class="navBrand">
+            <a class="navbar-brand" style="margin-left: 20px; font-size: 30px;" href="index.html">Miguel Alcantar</a>
+        </div>
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -31,7 +32,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="porfolio.html">Porfolio</a>
@@ -43,50 +44,24 @@
         </div>
     </nav>
 
-    <div class="contentSection mainBodyContainer">
-        <h1 class="Caption">Contact</h1>
-        <hr>
-        <div class="row">
-            <div class="col-6">
-                <table class="table">
-                    <tr>
-                        <th>Name</th>
-                        <td>Miguel Alcantar</td>
-                    </tr>
-                    <tr>
-                        <th>Phone</th>
-                        <td>
-                            <a href="tel:=+16196219809">(619) 621-9809</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Email</th>
-                        <td>
-                            <a href="mailto:malcantar185@gmail.com">malcantar185@gmail.com</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Address</th>
-                        <td>1122 Eureka st. #14 San Diego, CA. 92110</td>
-                    </tr>
+    <!--Contact -->
+    <div class="container-contact">
+        <section class="col-md-7 m-4 bg-light text-secondary">
+            <h3>Contact</h3>
 
-
-                </table>
-
-            </div>
-            <div class="col-6">
-                <h4>Send me a message</h4>
-
-            <form action="">
-                <input placeholder="Full name" class="form-control">
-                
-                <input style="margin-top: top 20px;" placeholder="Email" class="form-control">
-                
-                <label style="margin-top:20px">Message</label>
-                <textarea class="form-control"></textarea>
-
-                <button style="margin-top:20px" class="button">Send Message</button>
-            </form> 
-
-            </div>
-        </div>
+            <div class="px-3 mr-3">
+                <hr class="pl-4 pr-4 mpb-2 pb-2 solid" />
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control border border-dark" placeholder="Enter name" id="name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control border border-dark" placeholder="Enter email"
+                            id="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Message</label>
+                        <textarea class="form-control border border-dark" rows="5" id="comment"></textarea>
+                    </div>

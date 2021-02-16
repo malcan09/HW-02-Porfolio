@@ -1,4 +1,35 @@
 /* Home CSS */
+body {
+    background: url('https://cdn.hipwallpaper.com/m/21/24/IX1bjV.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.navBrand {
+font-size: 40px !important;
+margin-left: 55px;
+font-family: 'Big Shoulders Inline Display', cursive;
+}
+.nav-item {
+    font-family: 'Big Shoulders Inline Display', cursive;
+}
+
+.social {
+    height: 30px; 
+    width:40px;
+}
+h1 {
+
+    font-family: 'Big Shoulders Inline Display', cursive;
+}
+
+.card1 {
+    
+    font-family: 'Big Shoulders Inline Display', cursive;
+}
+
+
 .container{
     font-family: 'Raleway', sans-serif;
 }
@@ -34,9 +65,11 @@
 }
 
 
-.Captions{
+.Captions {
+    font-family: 'Big Shoulders Inline Display', cursive;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
 }
 
 
@@ -44,5 +77,8 @@
 
 .message{
     margin:20px;
+}  
+.container-contact{
+    font-family: 'Big Shoulders Inline Display', cursive;
+    align-content: center;
 }
-    
