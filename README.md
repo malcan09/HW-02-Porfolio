@@ -6,7 +6,9 @@ I buitl the website using
 -CSS
 -Boostrap
 
+My porfolio contains all of my contact information, such as my email, phone number 
+
 Here is a link to my Web:
 https://malcan09.github.io/HW-02-Porfolio/index.html
 
-In order to complete this assignment. I found myself using youtube as a guide, as well as google and boostrap for my examples to try and come out with some creativity to make it my own.
+
